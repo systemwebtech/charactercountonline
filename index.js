@@ -13,7 +13,7 @@ const updateCounter = () => {
   // remainingCoutn.innerText = 160 - userChar;
 };
 
-//charval.addEventListener("keyup", () => updateCounter());
+charval.addEventListener("keyup", () => updateCounter());
 
 // to copy the text
 const copyText = () => {

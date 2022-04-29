@@ -153,7 +153,14 @@ button:hover {
     <div class="container">
       <h2>Counter</h2>
       
-       
+     <script src="index.js"></script>
+     <button onclick="copyText()">Copy Text</button>
+
+      <div class="counter-container">
+        <p>Total character: <span id="total-conter"> 0</span></p>
+      <!--- <p>Remaining:
+          <span class="remaining-counter" id="remaining-counter">160</span>  
+        </p> --->  </div>   
         
  <textarea contenteditable spellcheck="true"
         id="textarea"
@@ -162,16 +169,7 @@ button:hover {
         maxlength="99999"
       </textarea>
 
-     <script src="index.js"></script>
-      
-      
-      <button onclick="copyText()">Copy Text</button>
-
-      <div class="counter-container">
-        <p>Total character: <span id="total-conter"> 0</span></p>
-      <!--- <p>Remaining:
-          <span class="remaining-counter" id="remaining-counter">160</span>  
-        </p> --->  </div>
+    
     </div>
   </body>
 </html>
